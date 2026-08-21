@@ -18,3 +18,4 @@ IBM Telco Customer Churn (Kaggle, ~7k rows)
 1. `python3 -m venv venv && source venv/bin/activate`
 2. `pip install -r requirements.txt`
 3. Run notebooks in order: 01_eda → 02_features → 03_model → 04_shap → 05_simulation
+Churn rate is ~26.5% — mild class imbalance. We do NOT need SMOTE or oversampling at this level. The guide (M07) tells us to use precision/recall not accuracy."
